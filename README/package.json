@@ -1,0 +1,10 @@
+{
+  "name": "healthtrack-root",
+  "version": "1.0.0",
+  "description": "HealthTrack - Complete Digital Healthcare Platform (MERN Stack)",
+  "scripts": {
+    "backend": "npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "seed": "node backend/src/utils/seedData.js"
+  }
+}
